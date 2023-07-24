@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Project- 2 | Job Application Form</title>
+  <!-- HERE IS THE FONT STYLE LINK  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+  <!-- HERE IS THE CSS LINK -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="application-form">
+      <h2>Application Form</h2>
+      <form action="#">
+        <div class="form-control Designation">
+          <label for="Designation" class="Designation">Designation</label>
+          <select name="" id="">
+            <option value="">Select Designation</option>
+            <option value="President">President</option>
+            <option value="Vice President">Vice President</option>
+            <option value="Secretary">Secretary</option>
+            <option value="Cashier">Cashier</option>
+            <option value="Executive Member">Executive Member</option>
+          </select>
+        </div>
+        <h3>Your Basic Information</h3>
+        <div class="form-container">
+          <div class="form-control">
+            <label for="first-name">Your First Name</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Enter your First name">
+          </div>
+          <div class="form-control">
+            <label for="last-name">Your last Name</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Enter your last name">
+          </div>
+          <div class="form-control">
+            <label for="Father's Name">Father's Name</label>
+            <input type="text" name="Father's Name" id="Father's Name" placeholder="Enter your father's name">
+          </div>
+          <div class="form-control">
+            <label for="Mother's Name">Mother's Name</label>
+            <input type="text" name="Mother's Name" id="Mother's Name" placeholder="Enter your mother's name">
+          </div>
+          <div class="form-control">
+            <label for="Your NID Number">Your NID Number</label>
+            <input type="number" name="Your NID Number" id="Your NID Number" placeholder="Enter your NID Number">
+          </div>
+          <div class="form-control">
+            <label for="Your Age">Your Age</label>
+            <select name="" id="">
+              <option value="">Select your age</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="email-address">Your Email Address</label>
+            <input type="email" name="email-address" id="email-address" placeholder="Enter your email address">
+          </div>
+          <div class="form-control">
+            <label for="Phone Number">Your Phone Number</label>
+            <input type="number" name="Phone Number" id="Phone Number" placeholder="Enter your Phone Number (+880)">
+          </div>
+
+        </div>
+        <div class="application-form-2">
+          <h3>Others Information</h3>
+          <div class="form-container">
+            <div class="form-control">
+              <label for="division">Select Your Division</label>
+              <select name="division" id="division">
+                <option value="">Select Division</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Rangpur">Rangpur</option>
+                <option value="Maymansing">Maymansing</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Barisal">Barisal</option>
+              </select>
+            </div>
+            <div class="form-control">
+              <label for="District">Select Your District</label>
+              <select name="District" id="District">
+                <option value="">Select District</option>
+                <option value="Dinajpur">Dinajpur</option>
+                <option value="Kurigram">Kurigram</option>
+                <option value="Gaibandha">Gaibandha</option>
+                <option value="Lalmonirhat">Lalmonirhat</option>
+                <option value="Nilphamari">Nilphamari</option>
+                <option value="Panchagarh">Panchagarh</option>
+                <option value="Rangpur">Rangpur</option>
+                <option value="Thakurgaon">Thakurgaon</option>
+              </select>
+            </div>
+            <div class="form-control">
+              <label for="Upazila">Upazila</label>
+              <select name="Upazila" id="Upazila">
+                <option value="">Select Upazila</option>
+                <option value="Kaunia">Kaunia</option>
+                <option value="Gangachara">Gangachara</option>
+                <option value="Taraganj">Taraganj</option>
+                <option value="Pirganj">Pirganj</option>
+                <option value="Pirgachha">Pirgachha</option>
+                <option value="Badarganj">Badarganj</option>
+                <option value="Rangpur Sadar">Rangpur Sadar</option>
+                <option value="Mitha Pukur">Mitha Pukur</option>
+              </select>
+            </div>
+            <div class="form-control">
+              <label for="Post-office">Post-office</label>
+              <input type="text" name="Post-office" id="Post-office" placeholder="Enter your Post-office">
+            </div>
+            <div class=" form-control">
+              <label for="Postcode">Postcode</label>
+              <input type="number" name="Postcode" id="Postcode" placeholder="Enter Postcode">
+            </div>
+            <div class=" form-control">
+              <label for="Date">Apply Date</label>
+              <input value="2020-10-9" type="date" name="Date" id="Date" placeholder="Enter Date">
+            </div>
+
+
+            <div class="form-control">
+              <label for="Present Address">Your Present Address</label>
+              <textarea placeholder="Enter your present address" name="Present Address" id="Present Address" cols="2"
+                rows="10"></textarea>
+            </div>
+            <div class="form-control">
+              <label for="Present Address">Your Present Address</label>
+              <textarea placeholder="Enter your present address" name="Present Address" id="Present Address" cols="2"
+                rows="10"></textarea>
+            </div>
+            <div class="form-control">
+              <label for="Upload">Upload Your CV</label>
+              <input type="file" name="Upload" id="Upload" >
+            </div>
+          </div>
+
+        </div>
+      </form>
+      <div class="apply-button">
+        <button type="submit">Apply Now</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
